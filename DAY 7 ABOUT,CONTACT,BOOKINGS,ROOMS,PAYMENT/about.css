@@ -1,0 +1,74 @@
+.about-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background-color: rgba(201, 226, 219, 0.9);
+  }
+  
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .about-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .about-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .about-page p{
+    font-size: 17px;
+    margin-bottom: 10px;
+    color:rgb(0, 0, 0);
+  }
+  .about-page .ratings {
+    margin-top: 40px;
+  }
+  
+  .about-page .rating-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .about-page .rating-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-page .rating-stars {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-page .star-icon {
+    color: #fdbc5d;
+    margin-right: 5px;
+  }
+  
+  .about-page .rating-comment {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .about-page .rating-author {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* .book3{
+    margin-top: -8.5%;
+    padding-bottom: 30px;
+    padding-left: 12%;
+  } */

@@ -1,0 +1,50 @@
+.room-page {
+    background-color: rgba(201, 226, 219, 0.9);
+    padding: 50px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+  }
+  
+  .room-page .fundraiser-card {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    padding: 20px;
+    height: 260px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* transform:translate(); */
+  }
+  
+  .room-page .fundraiser-card h2 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .room-page .fundraiser-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .room-page .fundraiser-card button {
+    background-color: #427bb8;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .room-page .fundraiser-card button:hover {
+    background-color: #3259a7;
+  }
+  @media (max-width: 768px) {
+    .donation-page {
+      width: 100%;
+    }
+  }
+
+  .room-page .fundraiser-image{
+  margin-left: 650px;
+  transform: translateY(-200px);
+}

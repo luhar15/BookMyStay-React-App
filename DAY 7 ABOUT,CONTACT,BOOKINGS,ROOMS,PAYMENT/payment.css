@@ -1,0 +1,68 @@
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 100px;
+
+  }
+  .color{
+    height: 100vh;
+    background-color: rgba(201, 226, 219, 0.9);
+  }
+  
+  .payment-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .payment-icon {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  
+  .payment-details {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .payment-text {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card-details,
+  .upi-details,
+  .netbanking-details {
+    margin-top: 20px;
+  }
+  
+  .payment-form input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .payment-form button {
+    background-color: rgb(28, 120, 28);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .payment-form button:hover {
+    background-color: #0056b3;
+  }
